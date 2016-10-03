@@ -1,0 +1,9 @@
+SELECT * FROM students.s;
+INSERT INTO s
+VALUES('AI3423', 'Dimitris', 'Gkimisis', '1987-10-26');
+INSERT INTO s
+VALUES('BK7369', 'Kostas', 'Vasilopoulos', '1990-02-07');
+INSERT INTO s
+VALUES('OY5983', 'Manolis', 'Karagiannis', '1996-10-01');
+
+/*SELECT * FROM s WHERE timestampdiff(year, Birthday, CURDATE()) > 19*/
