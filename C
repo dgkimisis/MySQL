@@ -1,0 +1,27 @@
+INSERT INTO c
+VALUES (1, 'SQL', 'AG', 'BN', 2, '2016-10-21');
+INSERT INTO c
+VALUES (2, 'JAVA', 'VS', 'BN', 3, '2016-10-25');
+INSERT INTO c
+VALUES (3, 'R', 'KP', 'tt', 4, '2016-11-09');
+INSERT INTO c
+VALUES (4, 'PYTHON', 'KK', 'DD', 5, '2016-11-09');
+
+
+/*SELECT * FROM c 
+WHERE duration > 3;*/
+
+
+/*SELECT MONTH(start_date) FROM c
+WHERE what='SQL'*/
+
+
+/*SELECT * FROM c 
+WHERE duration > 2 AND MONTH(start_date)=11*/
+
+/*SELECT * FROM c
+ORDER BY lecturer_name ASC*/
+
+/*SELECT * FROM c
+WHERE assistant_name = 'BN'
+GROUP BY assistant_name*/
