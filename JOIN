@@ -1,0 +1,11 @@
+SELECT * FROM bootcamp.participation;
+INSERT INTO participation
+VALUES('AI3423', '1', '8');
+INSERT INTO participation
+VALUES('AI3423', '2', '6');
+INSERT INTO participation
+VALUES('AI3423', '3', '7');
+INSERT INTO participation
+VALUES('AI3423', '4', '9');
+
+SELECT * FROM students INNER JOIN participation ON students.StID = participation.StudentID
